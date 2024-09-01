@@ -21,6 +21,7 @@ function CreateStreamPage() {
         address: SEPOLIA_DAI,
         abi: ABI.ERC20.abi,
         functionName: "balanceOf",
+        // eslint-disable-next-line
         args: [connectedAddress!],
       },
     ],
